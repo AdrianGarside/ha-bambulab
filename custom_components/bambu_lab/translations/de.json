@@ -1,0 +1,70 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Gerät ist bereits konfiguriert"
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ungültige Authentifizierung",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "description": "Bitte wählen Sie Ihren Drucker aus und geben Sie dessen Seriennummer an.",
+                "data": {
+                    "device_type": "Drucker-Modell:",
+                    "serial": "Seriennummer",
+                    "printer_mode": "Verbindungs-Modus:"
+                }
+            },
+            "Bambu": {
+                "title": "Bambu Cloud Verbindung",
+                "description": "Bitte geben Sie Ihre Bambu-Lab-Anmeldedaten an, damit ein Authentifizierungs-Token generiert werden kann. Nur der Token wird gespeichert, Ihre Bambu-Anmeldedaten werden nicht gespeichert.",
+                "data": {
+                    "username": "E-Mail Adresse",
+                    "password": "Passwort"
+                }
+            },
+            "Lan": {
+                "title": "Verbindung im Lan-Modus",
+                "description": "Bitte geben Sie die lokale Drucker-IP-Adresse und den Zugangscode an. Den Zugangscode finden Sie auf dem Bildschirm des Druckers in den Netzwerkeinstellungen.",
+                "data": {
+                  "host": "Host-IP",
+                  "access_code": "Zugangscode"
+                }
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ungültige Authentifizierung",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "init": {
+                "title": "Verbindungseinstellungen anpassen",
+                "description": "Wählen Sie den neuen Verbindungsmodus für diesen Drucker.",
+                "data": {
+                    "printer_mode": "Verbindungs-Modus:"
+                }
+            },
+            "Bambu": {
+                "title": "Bambu Cloud Verbindung",
+                "description": "Bitte geben Sie Ihre Bambu-Lab-Anmeldedaten an, damit ein Authentifizierungs-Token generiert werden kann. Nur der Token wird gespeichert, Ihre Bambu-Anmeldedaten werden nicht gespeichert.",
+                "data": {
+                    "username": "E-Mail Adresse",
+                    "password": "Passwort"
+                }
+            },
+            "Lan": {
+                "title": "Verbindung im Lan-Modus",
+                "description": "Bitte geben Sie die lokale Drucker-IP-Adresse und den Zugangscode an. Den Zugangscode finden Sie auf dem Bildschirm des Druckers in den Netzwerkeinstellungen.",
+                "data": {
+                  "host": "Host-IP",
+                  "access_code": "Zugangscode"
+                }
+            }
+        }
+    }
+}
